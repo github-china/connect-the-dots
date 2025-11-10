@@ -3,29 +3,34 @@
   Review what we learned, ask for feedback, provide next steps.
 -->
 
-## Finish
+## 完成
 
-_Congratulations friend, you've completed this course! :tada:_
+_恭喜你，你已经顺利完成了本课程! :tada:_
 
 <img src="https://octodex.github.com/images/collabocats.jpg" alt=celebrate width=300 align=right>
 
-In this course, you've learned a lot about finding and sharing information. Within a GitHub repository, you can find history about what changes were made, and more importantly, _why_ changes were made.
+在这门课程中，你学习了如何通过 GitHub 查找历史提交记录、定位问题来源，并了解每次改动的背景。
+这将帮助你在日常开发中更好地追踪问题、协作和维护项目。
 
-### What's next?
+### 接下来可以做什么？
 
-You can enable GitHub Pages and see `docs/index.html` as a website!
+你现在可以开启 **GitHub Pages**，把 `docs/index.html` 变成一个可访问的网站！
 
-1. Replace `USERNAME` with your GitHub username and `REPONAME` with your GitHub repository name in `docs/index.html`.
-1. Under your repository name at the upper right, click :gear: **Settings**.
-1. Then on the lower left, click **Pages**.
-1. In the **GitHub Pages** section, select `main` in the **Select branch** drop-down menu and `/docs` in the **Select folder** drop-down menu.
-1. Click the **Save** button.
-1. Wait about 30 seconds then refresh the page. When you see "Your site is published at ...," you can click on the link to see your published site.
+操作步骤如下：
 
-Check out these resources to learn more or get involved:
+1. 打开 `docs/index.html` 文件，将其中的 `USERNAME` 替换为你的 GitHub 用户名，将 `REPONAME` 替换为你的仓库名。
+2. 在仓库页面右上角，点击 :gear: **Settings（设置）**。
+3. 在左侧边栏底部点击 **Pages**。
+4. 在 **GitHub Pages** 部分：
+    * 在 **Select branch** 下拉框中选择 `main`；
+    * 在 **Select folder** 下拉框中选择 `/docs`。
+5. 点击 **Save** 保存设置。
+6. 等待大约 30 秒后刷新页面，当你看到提示 **“Your site is published at ...”** 时，点击链接即可访问你发布的网站。
 
-- Are you a student? Check out the [Student Developer Pack](https://education.github.com/pack).
-- We'd love to hear what you thought of this course in our [discussion board](https://github.com/orgs/skills/discussions/categories/connect-the-dots).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+更多资源，请访问下面的链接：
+
+- 你是学生吗？了解 [GitHub 学生开发者包](https://education.github.com/pack)。
+- 欢迎在[课程讨论区](https://github.com/orgs/skills/discussions/categories/connect-the-dots)分享你的学习体验。
+- 想继续进阶？去看看 [其他 GitHub Skills 课程](https://github.com/skills)。
+- 阅读 [GitHub 入门文档](https://docs.github.com/en/get-started)。
+- 想参与更多开源项目？浏览 [GitHub Explore](https://github.com/explore) 发现精彩项目。

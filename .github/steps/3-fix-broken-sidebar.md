@@ -4,36 +4,42 @@
   Define terms and link to docs.github.com.
 -->
 
-## Step 3: Fix a broken sidebar
+## Step 3: 修复损坏的侧边栏
 
-_Great job finding that commit :heart:_
+_很棒！你已经成功找到了那次错误的提交 :heart:_
 
-Thanks for finding that commit! We now know that the sidebar was indeed added, and it was done in that commit. Let's see if we can dig a little deeper to find out if any planning or conversation, using comments, occurred around this change.
+通过上一步我们确认，侧边栏确实是在那次提交中被添加的。接下来，我们来看看能否进一步了解这次更改背后的背景信息——是否有相关讨论、评论或规划记录。
 
-As we've already seen, conversations in issues and pull requests can reference other work, but the amount of context goes much further than crosslinks. Remember, Git is version control! For example, the commit that you found in the last step is connected with much more information such as:
+通过前面的学习我们知道，issue 和 pull request 中的讨论可以引用其他工作，但这些“交叉引用”只是 GitHub 协作的一部分。
 
-- Who made the commit.
-- What other changes were included.
-- When the commit was made.
-- Which pull request the commit was a part of.
+- 提交者是谁；
+- 这次提交还包含了哪些改动；
+- 提交的时间；
+- 该提交属于哪个 pull request。
 
-The pull request is important because it goes beyond knowing when a commit happened. You can know _why_ a commit happened. Finding history is not about _blaming_ anyone, but about seeing the bigger picture. Why were decisions made? Who was involved? What were the build outputs and test results for each commit? Who requested changes, and who approved them?
+Pull request 是理解项目历史的重要入口。 它不仅告诉你“提交是什么时候发生的”，更能揭示“**为什么**会发生这次提交”。
+在查看历史记录时，我们关注的并不是“谁改错了”，而是希望从中看清全局：
+- 决策是怎么形成的？
+- 有哪些人参与了？
+- 每次提交的构建和测试结果如何？
+- 谁提出了修改建议，又是谁最终批准的？
 
-### Finding a pull request from a commit
+### 查找 commit 对应的 pull request
 
-When you're looking at a commit on GitHub, you can see a lot of information. From this view, you can also find a link to the pull request in which the commit was created. We'll use this in the next step.
+在 GitHub 上查看某个 commit 时，可以看到非常详细的信息。除了提交信息，GitHub 还会自动显示该 commit 所属的 pull request 链接。
+接下来我们将利用这个功能。
 
 ![screenshot of a view of a commit on GitHub, highlighting the link to the pull request](https://user-images.githubusercontent.com/16547949/67341250-3edbb480-f4fd-11e9-805a-6bce5a8ba2d1.png)
 
-### :keyboard: Activity: Fix a broken sidebar
+### :keyboard: 实操环节: 修复损坏的侧边栏
 
-1. In the main branch [Edit the `docs/_sidebar.md` file](/docs/_sidebar.md).
-2. Correct the spelling of the reference `(doc-references__.md)` on line 4 by changing it into `(doc-references.md)`.
-3. Select or create a new branch `fix-sidebar` for this commit and start a pull request.
-4. Make sure that **main** is selected for **base:** and **fix-sidebar** for **compare:**.
-5. Using the **Assignees** section on the right side, assign yourself to the pull request.
-6. In the PR comment add 'Closes #2' and autolink issue #2.
-7. Click **Create pull request** and wait about 20 seconds.
-8. Merge this pull request.
-9. Delete the branch 'fix-sidebar'.
-10. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. 在 main 分支中打开并编辑 [`docs/_sidebar.md`](/docs/_sidebar.md) 文件。
+2. 找到第 4 行，将错误的链接地址 `(doc-references__.md)` 改为正确的 `(doc-references.md)`。
+3. 在提交更改时，选择或新建一个分支 **`fix-sidebar`**。
+4. 创建一个新的 pull request，确保 **base:** 为 `main`，**compare:** 为 `fix-sidebar`。
+5. 在右侧 **Assignees** 区域中，将该 pull request 分配给自己。
+6. 在 PR 评论中添加 `Closes #2`，以自动关联并关闭 issue #2。
+7. 点击 **Create pull request** 创建 PR，并等待约 20 秒。
+8. 合并该 pull request。
+9. 删除分支 `fix-sidebar`。
+10. 再等待大约 20 秒，然后刷新本教程页面。[GitHub Actions](https://docs.github.com/en/actions) 会自动检测进度并进入下一步。
